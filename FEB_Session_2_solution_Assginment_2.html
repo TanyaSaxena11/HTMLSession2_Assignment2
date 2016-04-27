@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Form Assignment</title>
+</head>
+<body>
+	<form action="SubmitMe1.txt" method="GET">
+	<fieldset style="width:380px;height:60px">
+		<legend>Your Details:</legend>
+			Name: <input type="text" style="width:200px"/><br/>
+			Email: <input type="text" style="width:200px"/><br/>
+	</fieldset><br/><br/>
+	<fieldset style="width:380px;height:320px">
+		<legend>Your Review:</legend><br/>				
+			How did you hear about us? <select name="name">
+			<option name="first value"selected>Google</option>
+			<option name="second value">Yahoo</option>
+			<option name="third value">Bing</option>
+		</select><br/><br/>
+		Would you visit us again?<br/>
+		<input name="choice" type="radio" value="positive"/>Yes <input name="choice" type="radio" value="negative"/>No <input name="choice" value="neutral" type="radio"/>Maybe<br/><br/>
+		Comments:<br/>
+		<textarea style="width:300px;height:90px " value="yourcomments"></textarea><br/></br>
+		<input type="checkbox" name="check" value="checkvalueyes" checked/>Sign me up for email updates<br/><br/>
+		<input type="submit" value="SubmitReview"/>	
+		</fieldset>				
+	</form>	
+</body>
+</html>	
+
